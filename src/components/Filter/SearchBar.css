@@ -1,0 +1,33 @@
+.input{
+    background-color: rgb(27, 50, 82);
+    padding: 6px;
+    color: white;
+    @media(max-width: 750px)
+    {
+        margin-right:20px !important;
+        width:95% 
+    }
+    }   
+::placeholder{
+    color: white
+}
+.form{
+ display: contents;
+ margin-right :10px; 
+}
+.searchbar{
+    display: contents; 
+    float: right;
+align-items: flex-end;
+}
+.clear{
+    background-color: rgb(27, 50, 82);
+    padding: 6px;
+    color: white;
+    margin-left: 10px;
+    @media(max-width: 750px)
+    {
+        margin:10px 20px 0px 0px;
+        width:100% ;
+    }
+}

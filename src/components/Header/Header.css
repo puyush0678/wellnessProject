@@ -1,0 +1,26 @@
+.header-outer{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    opacity: 1;
+    background-color: rgb(27, 50, 82);
+    border-bottom: 0px solid rgb(229, 231, 235);
+    box-shadow: rgba(3, 3, 3, 0.1) 2px 2px 4px;
+    
+}
+.header{
+flex-grow: 1;
+margin: 10px;
+overflow: hidden;
+font-size: 24px;
+font-weight: 600;
+text-transform: none;
+text-align: left;
+letter-spacing: 0px;
+line-height: 32px;
+color: white;
+font-family: "Source Sans Pro";
+}

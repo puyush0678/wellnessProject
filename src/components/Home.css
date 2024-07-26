@@ -1,0 +1,29 @@
+.content-section {
+    margin: 3rem 0 6rem 0;
+    padding: 0 15%;
+  }
+  .events-list {
+    max-width: 80rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 3rem;
+    list-style-type:none;
+    @media(max-width:750px) {
+      padding: inherit !important;
+    }
+  }
+  .content-section-retreats{
+    margin: 3rem 3rem 1.5rem 3rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 1;
+    flex-grow: 1;
+    align-self: stretch;
+    border-radius: 6px;
+    @media(max-width: 750px)
+    {
+    margin: 0rem 3rem 1.5rem 3rem}
+  }
+  
